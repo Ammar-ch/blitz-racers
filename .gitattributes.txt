@@ -1,0 +1,37 @@
+# تأكد من استخدام نهاية سطر مناسبة لكل نظام تشغيل
+* text=auto
+
+# التعامل الخاص مع الملفات النصية
+*.cs       text diff=csharp
+*.shader   text
+*.cginc    text
+*.hlsl     text
+*.compute  text
+*.txt      text
+*.md       text
+*.json     text
+*.xml      text
+*.yaml     text
+*.yml      text
+
+# عدم تتبع تغييرات نهاية الأسطر للملفات الثنائية أو الكبيرة
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.psd      binary
+*.fbx      binary
+*.mp3      binary
+*.wav      binary
+*.ogg      binary
+*.unity    merge=unityyamlmerge eol=lf
+*.prefab   merge=unityyamlmerge eol=lf
+*.asset    merge=unityyamlmerge eol=lf
+*.mat      merge=unityyamlmerge eol=lf
+*.anim     merge=unityyamlmerge eol=lf
+
+# Unity specific
+*.meta     text merge=union
+
+# النصوص البرمجية الأخرى
+*.js       text
+*.boo      text
