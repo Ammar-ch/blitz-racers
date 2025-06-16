@@ -34,4 +34,4 @@ This project was developed by a team of 3 students as a learning exercise in Uni
 - Track 2 is under development and contains bugs.
 
 ## 📷 Screenshots
-![Game UI]()
+![Game UI](https://github.com/Ammar-ch/blitz-racers/blob/master/race_game_1st_background.png)
